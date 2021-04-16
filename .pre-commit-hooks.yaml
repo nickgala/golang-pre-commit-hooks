@@ -1,0 +1,8 @@
+-   id: golangci-lint
+    name: 'golangci-lint'
+    entry: ./scripts/golangci-lint.sh
+    description: "Execute `golangci-lint`, requires golangci-lint"
+    types: [go]
+    language: 'script'
+    require_serial: True
+    pass_filenames: false
