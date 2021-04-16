@@ -1,0 +1,6 @@
+repos: 
+  - repo: git@github.com:racken/golang-pre-commit-hooks.git
+    rev: master
+    hooks: 
+      - id: golangci-lint
+        args: []
